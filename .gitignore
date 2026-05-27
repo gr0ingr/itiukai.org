@@ -1,0 +1,13 @@
+# બધી ફાઈલો ignore કરો
+*
+
+# પણ HTML ફાઈલો રાખો
+!*.html
+!*.htm
+
+# .gitignore પોતે રાખો
+!.gitignore
+
+# GitHub માટે જરૂરી ફાઈલો (વૈકલ્પિક)
+!README.md
+!.github/
