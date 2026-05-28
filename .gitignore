@@ -3,7 +3,7 @@
 
 # પણ HTML ફાઈલો રાખો
 !*.html
-!*.htm
+!*.js
 
 # .gitignore પોતે રાખો
 !.gitignore
