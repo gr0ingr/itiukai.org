@@ -1,0 +1,13 @@
+{
+  "name": "native-build",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run c && npm run cpp && npm run csharp",
+
+    "c": "emcc src/c/main.c -o dist/c.js",
+
+    "cpp": "em++ src/cpp/main.cpp -o dist/cpp.js",
+
+    "csharp": "dotnet publish src/csharp -c Release -o dist/csharp"
+  }
+}
